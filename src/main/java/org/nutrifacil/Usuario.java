@@ -5,6 +5,7 @@ public class Usuario {
     public Dieta dieta;
     public double peso;
     public double altura;
+    public double aguaRecomendada;
     public int idade;
     public String sexo;
     public String objetivo;
@@ -19,7 +20,8 @@ public class Usuario {
     }
 
     public void calculoAgua() {
-        //a ser implementado
+            aguaRecomendada = peso * 0.035;
+            System.out.printf("Quantidade recomendada de água por dia: %.2f litros%n", aguaRecomendada);
     }
 
 
