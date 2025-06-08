@@ -2,6 +2,7 @@ package org.nutrifacil;
 
 public class Usuario {
 
+    public String nome;
     public Dieta dieta;
     public double peso;
     public double altura;
