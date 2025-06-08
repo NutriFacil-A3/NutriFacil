@@ -9,6 +9,7 @@ public class Usuario {
     public String sexo;
     public String objetivo;
     public String restricoes;
+    
 
     public void calculoTMB() {
         //a ser implementado
@@ -18,9 +19,8 @@ public class Usuario {
         //a ser implementado
     }
 
-    public void calculoAgua() {
-        //a ser implementado
+    public double calculoAgua() {
+        double aguaRecomendada = peso * 0.035;
+        return aguaRecomendada;
     }
-
-
 }
