@@ -5,11 +5,11 @@ public class Usuario {
     public Dieta dieta;
     public double peso;
     public double altura;
-    public double aguaRecomendada;
     public int idade;
     public String sexo;
     public String objetivo;
     public String restricoes;
+    
 
     public void calculoTMB() {
         //a ser implementado
@@ -19,10 +19,8 @@ public class Usuario {
         //a ser implementado
     }
 
-    public void calculoAgua() {
-            aguaRecomendada = peso * 0.035;
-            System.out.printf("Quantidade recomendada de água por dia: %.2f litros%n", aguaRecomendada);
+    public double calculoAgua() {
+        double aguaRecomendada = peso * 0.035;
+        return aguaRecomendada;
     }
-
-
 }
