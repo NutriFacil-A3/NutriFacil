@@ -15,6 +15,7 @@ import java.util.List;
 
 public class FileDB {
     private static final String CAMINHO = "src/main/resources/usuarios.json";
+    private static final String CAMINHOD = "src/main/resources/dietas.json";
 
     public static void salvarUsuario(Usuario novoUsuario) {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
@@ -50,10 +51,10 @@ public class FileDB {
     public static List<Dieta> lerDietas() {
         Gson gson = new Gson();
         try {
-            if (!Files.exists(Paths.get(CAMINHO))) {
+            if (!Files.exists(Paths.get(CAMINHOD))) {
                 return new ArrayList<>();
             }
-            FileReader reader = new FileReader(CAMINHO);
+            FileReader reader = new FileReader(CAMINHOD);
             Type listType = new TypeToken<List<Usuario>>() {}.getType();
             List<Dieta> dietas = gson.fromJson(reader, listType);
             reader.close();
