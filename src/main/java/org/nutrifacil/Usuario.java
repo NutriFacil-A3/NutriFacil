@@ -13,8 +13,23 @@ public class Usuario {
     
 
     public void calculoTMB() {
-        //a ser implementado
+        if (peso <= 0 || altura <= 0 || idade <= 0 || sexo == null) {
+            throw new IllegalArgumentException("Dados inválidos para cálculo da TMB.");
+        }
+    
+        double tmb;
+    
+        if (sexo.equalsIgnoreCase("masculino")) {
+            tmb = 10 * peso + 6.25 * altura - 5 * idade + 5;
+        } else if (sexo.equalsIgnoreCase("feminino")) {
+            tmb = 10 * peso + 6.25 * altura - 5 * idade - 161;
+        } else {
+            throw new IllegalArgumentException("Sexo deve ser 'masculino' ou 'feminino'.");
+        }
+    
+        System.out.printf("TMB de %s: %.2f kcal/dia%n", nome, tmb);
     }
+    
 
     public String calculoIMC() {
         if (peso <= 0 || altura <= 0) {
