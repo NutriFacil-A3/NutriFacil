@@ -16,8 +16,21 @@ public class Usuario {
         //a ser implementado
     }
 
-    public void calculoIMC() {
-        //a ser implementado
+    public String calculoIMC() {
+        if (peso <= 0 || altura <= 0) {
+            throw new IllegalArgumentException("Peso e altura devem ser maiores que zero.");
+        }
+    
+        double alturaMetros = altura / 100;
+        double imc = peso / (alturaMetros * alturaMetros);
+        String classificacao;
+    
+        if (imc < 18.5) classificacao = "Abaixo do peso";
+        else if (imc < 24.9) classificacao = "Peso normal";
+        else if (imc < 29.9) classificacao = "Sobrepeso";
+        else classificacao = "Obesidade";
+    
+        return String.format("%.2f - %s", imc, classificacao);
     }
 
     public double calculoAgua() {
