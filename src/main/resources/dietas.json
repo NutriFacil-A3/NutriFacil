@@ -1,8 +1,294 @@
 [
   {
     "tipo": "Mediterrânea",
-    "objetivo": "Foco em saúde cardiovascular e manutenção de peso",
-    "conteudo": "Azeite de oliva, peixes, grãos integrais, legumes e frutas",
-    "restricao": ""
+    "restricao": "NENHUMA",
+    "alimentos": {
+      "proteinas": [
+        "Peixes",
+        "Ovos",
+        "Frango grelhado"
+      ],
+      "legumes": [
+        "Grão-de-bico",
+        "Lentilha"
+      ],
+      "verduras": [
+        "Espinafre",
+        "Rúcula",
+        "Couve",
+        "Alface"
+      ],
+      "carboidratos": [
+        "Arroz integral",
+        "Quinoa",
+        "Batata doce"
+      ]
+    }
+  },
+  {
+    "tipo": "Mediterrânea",
+    "restricao": "OVO",
+    "alimentos": {
+      "proteinas": [
+        "Peixes",
+        "Frango grelhado"
+      ],
+      "legumes": [
+        "Grão-de-bico",
+        "Lentilha"
+      ],
+      "verduras": [
+        "Espinafre",
+        "Rúcula",
+        "Couve",
+        "Alface"
+      ],
+      "carboidratos": [
+        "Arroz integral",
+        "Quinoa",
+        "Batata doce"
+      ]
+    }
+  },
+  {
+    "tipo": "Mediterrânea",
+    "restricao": "FRUTOS_DO_MAR",
+    "alimentos": {
+      "proteinas": [
+        "Frango grelhado",
+        "Ovos"
+      ],
+      "legumes": [
+        "Grão-de-bico",
+        "Lentilha"
+      ],
+      "verduras": [
+        "Espinafre",
+        "Rúcula",
+        "Couve",
+        "Alface"
+      ],
+      "carboidratos": [
+        "Arroz integral",
+        "Quinoa",
+        "Batata doce"
+      ]
+    }
+  },
+  {
+    "tipo": "Low Carb",
+    "restricao": "NENHUMA",
+    "alimentos": {
+      "proteinas": [
+        "Peito de Frango",
+        "Peixe",
+        "Ovos",
+        "Carne Bovina Magra"
+      ],
+      "legumes": [
+        "Berinjela",
+        "Abobrinha"
+      ],
+      "verduras": [
+        "Couve",
+        "Espinafre",
+        "Alface"
+      ],
+      "carboidratos": [
+        "Brócolis",
+        "Abacate",
+        "Castanhas"
+      ]
+    }
+  },
+  {
+    "tipo": "Low Carb",
+    "restricao": "OVO",
+    "alimentos": {
+      "proteinas": [
+        "Peito de Frango",
+        "Peixe",
+        "Carne Bovina Magra"
+      ],
+      "legumes": [
+        "Berinjela",
+        "Abobrinha"
+      ],
+      "verduras": [
+        "Couve",
+        "Espinafre",
+        "Alface"
+      ],
+      "carboidratos": [
+        "Brócolis",
+        "Abacate",
+        "Castanhas"
+      ]
+    }
+  },
+  {
+    "tipo": "Low Carb",
+    "restricao": "FRUTOS_DO_MAR",
+    "alimentos": {
+      "proteinas": [
+        "Peito de Frango",
+        "Ovos",
+        "Carne Bovina Magra"
+      ],
+      "legumes": [
+        "Berinjela",
+        "Abobrinha"
+      ],
+      "verduras": [
+        "Couve",
+        "Espinafre",
+        "Alface"
+      ],
+      "carboidratos": [
+        "Brócolis",
+        "Abacate",
+        "Castanhas"
+      ]
+    }
+  },
+  {
+    "tipo": "Cetogênica",
+    "restricao": "NENHUMA",
+    "alimentos": {
+      "proteinas": [
+        "Salmão",
+        "Ovos",
+        "Frango"
+      ],
+      "legumes": [
+        "Abobrinha",
+        "Pimentão"
+      ],
+      "verduras": [
+        "Couve",
+        "Alface"
+      ],
+      "carboidratos": [
+        "Abacate",
+        "Azeite de oliva"
+      ]
+    }
+  },
+  {
+    "tipo": "Cetogênica",
+    "restricao": "OVO",
+    "alimentos": {
+      "proteinas": [
+        "Salmão",
+        "Frango"
+      ],
+      "legumes": [
+        "Abobrinha",
+        "Pimentão"
+      ],
+      "verduras": [
+        "Couve",
+        "Alface"
+      ],
+      "carboidratos": [
+        "Abacate",
+        "Azeite de oliva"
+      ]
+    }
+  },
+  {
+    "tipo": "Cetogênica",
+    "restricao": "FRUTOS_DO_MAR",
+    "alimentos": {
+      "proteinas": [
+        "Ovos",
+        "Frango"
+      ],
+      "legumes": [
+        "Abobrinha",
+        "Pimentão"
+      ],
+      "verduras": [
+        "Couve",
+        "Alface"
+      ],
+      "carboidratos": [
+        "Abacate",
+        "Azeite de oliva"
+      ]
+    }
+  },
+  {
+    "tipo": "Vegetariana",
+    "restricao": "NENHUMA",
+    "alimentos": {
+      "proteinas": [
+        "Ovos",
+        "Tofu",
+        "Queijo"
+      ],
+      "legumes": [
+        "Lentilha",
+        "Grão-de-bico"
+      ],
+      "verduras": [
+        "Couve",
+        "Espinafre",
+        "Beterraba"
+      ],
+      "carboidratos": [
+        "Arroz integral",
+        "Quinoa",
+        "Batata doce"
+      ]
+    }
+  },
+  {
+    "tipo": "Vegetariana",
+    "restricao": "LACTOSE",
+    "alimentos": {
+      "proteinas": [
+        "Ovos",
+        "Tofu"
+      ],
+      "legumes": [
+        "Lentilha",
+        "Grão-de-bico"
+      ],
+      "verduras": [
+        "Couve",
+        "Espinafre",
+        "Beterraba"
+      ],
+      "carboidratos": [
+        "Arroz integral",
+        "Quinoa",
+        "Batata doce"
+      ]
+    }
+  },
+  {
+    "tipo": "Vegetariana",
+    "restricao": "OVO",
+    "alimentos": {
+      "proteinas": [
+        "Tofu",
+        "Queijo"
+      ],
+      "legumes": [
+        "Lentilha",
+        "Grão-de-bico"
+      ],
+      "verduras": [
+        "Couve",
+        "Espinafre",
+        "Beterraba"
+      ],
+      "carboidratos": [
+        "Arroz integral",
+        "Quinoa",
+        "Batata doce"
+      ]
+    }
   }
 ]

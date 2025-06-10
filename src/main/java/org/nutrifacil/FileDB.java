@@ -55,7 +55,7 @@ public class FileDB {
                 return new ArrayList<>();
             }
             FileReader reader = new FileReader(CAMINHOD);
-            Type listType = new TypeToken<List<Usuario>>() {}.getType();
+            Type listType = new TypeToken<List<Dieta>>() {}.getType();
             List<Dieta> dietas = gson.fromJson(reader, listType);
             reader.close();
             return dietas != null ? dietas : new ArrayList<>();

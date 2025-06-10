@@ -1,0 +1,29 @@
+[
+  {
+    "nome": "Teste da Silva",
+    "dieta": "Vegetariana - Restricao: OVO",
+    "peso": 100.0,
+    "altura": 185.0,
+    "idade": 24,
+    "sexo": "Masculino",
+    "objetivo": "Emagrecimento",
+    "restricoes": [
+      "OVO"
+    ],
+    "tmb": 0.0
+  },
+  {
+    "nome": "Testa de Oliveira",
+    "dieta": "Mediterrânea - Restricao: NENHUMA",
+    "peso": 45.0,
+    "altura": 165.0,
+    "idade": 22,
+    "sexo": "Feminino",
+    "objetivo": "Hipertrofia",
+    "restricoes": [
+      "GLUTEN",
+      "PROTEINA_DO_LEITE"
+    ],
+    "tmb": 0.0
+  }
+]
