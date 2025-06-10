@@ -49,7 +49,7 @@ public class Menu {
         System.out.println("-Emagrecimento (perda de gordura, redução de medidas, aumento de energia, etc.) - ");
         System.out.println("-Hipertrofia (ganho de massa, aumento de força, autoestima, etc.) - ");
         String objetivo = sc.nextLine();
-        System.out.println("Informe restrições alimentares (LACTOSE, GLUTEN, OVO, PROTEINA_DO_LEITE, FRUTOS_DO_MAR), separadas por vírgula:");
+        System.out.println("Informe restrições alimentares (LACTOSE, GLUTEN, OVO, PROTEINA_DO_LEITE, FRUTOS_DO_MAR, NENHUMA), separadas por vírgula:");
         String restricoesInput = sc.nextLine();
         System.out.println("Dieta (Mediterrânea, Low Carb, Cetogênica, Vegetariana): ");
         String dieta = sc.nextLine();
