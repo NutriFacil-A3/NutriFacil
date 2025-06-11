@@ -25,5 +25,40 @@
       "PROTEINA_DO_LEITE"
     ],
     "tmb": 0.0
+  },
+  {
+    "nome": "victor",
+    "dieta": "Low Carb - Restricao: NENHUMA",
+    "peso": 96.0,
+    "altura": 190.0,
+    "idade": 24,
+    "sexo": "Masculino",
+    "objetivo": "emagrecimento",
+    "restricoes": [
+      "GLUTEN"
+    ],
+    "tmb": 0.0
+  },
+  {
+    "nome": "Carlos Silva",
+    "dieta": "",
+    "peso": 80.0,
+    "altura": 180.0,
+    "idade": 28,
+    "sexo": "Masculino",
+    "objetivo": "Emagrecimento",
+    "restricoes": [],
+    "tmb": 0.0
+  },
+  {
+    "nome": "Carlos Silva",
+    "dieta": "",
+    "peso": 80.0,
+    "altura": 180.0,
+    "idade": 28,
+    "sexo": "Masculino",
+    "objetivo": "Emagrecimento",
+    "restricoes": [],
+    "tmb": 0.0
   }
 ]
