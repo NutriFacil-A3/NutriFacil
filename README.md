@@ -2,16 +2,16 @@
 Repositório principal do projeto-A3 da UC - Gestão e Qualidade de Software.
 
 # Descrição do projeto
-O projeto NutriFácil foi desenvolvido com o objetivo de oferecer uma ferramenta que facilite o trabalho de nutricionistas no planejamento e acompanhamento de dietas personalizadas para seus pacientes. A aplicação possibilita o gerenciamento dos dados nutricionais, controle da evolução física dos pacientes e comunicação direta entre profissional e paciente. Os dados são armazenados em arquivos JSON, o que proporciona uma estrutura simples para o armazenamento e recuperação das informações.
+O projeto NutriFácil foi desenvolvido com o objetivo de oferecer um sistema de planejamento alimentar personalizado, que permita ao usuário montar seu plano alimentar conforme suas preferências e objetivos.
 # Instalação e Execução do Projeto
-Para executar o projeto localmente, é necessário ter instalado Java (versão 11 ou superior) e Maven para a construção e execução do backend, além das ferramentas necessárias para o frontend conforme especificado no manual do projeto.
+Para executar o projeto localmente, é necessário ter instalado Java (versão 17 ou superior) e Maven.
 Os passos básicos para instalação são:
 
 Clonar o repositório do projeto;
 
-Construir e executar o backend usando Maven;
+Executar o comando mvn clean package
 
-Configurar e executar o frontend conforme orientações específicas.
+Executar a aplicação java target/classes/org/nutrifacil/Main
 # Uso do projeto
 ## Documentação da classe Menu
 A classe `Menu` gerencia a interface de linha de comando do sistema NutriFácil, permitindo interação com o usuário para cadastro, consulta e cálculo de dados nutricionais.
@@ -27,7 +27,7 @@ A classe `Menu` gerencia a interface de linha de comando do sistema NutriFácil,
 
 ## Dependências
 
-- Utiliza a classe `FileDB` para persistência de dados.
+- Utiliza a classe `FileDB` que utiliza GSON para persistência de dados.
 - Depende das classes `Usuario` e `Dieta` para manipulação e validação dos dados do usuário.
 
 # Créditos
