@@ -78,7 +78,7 @@ public void testCadastroUsuarioSimples() {
         menu.exibirCalculos();
 
         String output = outputStreamCaptor.toString();
-        // Deve conter TMB e cálculos
+        
         assertTrue(output.contains("Taxa de Metabolismo Basal (TMB):")
                 || output.contains("Índice de Massa Corporal (IMC):"));
     }
